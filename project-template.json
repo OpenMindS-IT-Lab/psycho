@@ -1,0 +1,92 @@
+{
+  "name": "Психосоматика — MVP",
+  "body": "Roadmap-driven проект для мобільного додатку з AI-агентом",
+  "public": false,
+  "fields": [
+    {
+      "name": "Status",
+      "data_type": "single_select",
+      "options": [
+        {
+          "name": "🧠 Idea",
+          "color": "GRAY"
+        },
+        {
+          "name": "✍️ Specification",
+          "color": "YELLOW"
+        },
+        {
+          "name": "🛠️ In Progress",
+          "color": "BLUE"
+        },
+        {
+          "name": "🔍 QA",
+          "color": "ORANGE"
+        },
+        {
+          "name": "✅ Done",
+          "color": "GREEN"
+        }
+      ]
+    }
+  ],
+  "views": [
+    {
+      "name": "🗺️ Roadmap",
+      "type": "roadmap"
+    },
+    {
+      "name": "🧩 Kanban",
+      "type": "board"
+    },
+    {
+      "name": "🔎 Backlog",
+      "type": "table",
+      "filters": {
+        "labels": [
+          "backlog"
+        ]
+      }
+    },
+    {
+      "name": "📅 Timeline",
+      "type": "roadmap"
+    }
+  ],
+  "labels": [
+    "feature",
+    "bug",
+    "AI",
+    "auth",
+    "chat",
+    "UI",
+    "infra",
+    "nice-to-have",
+    "MVP",
+    "blocked",
+    "urgent",
+    "low-priority"
+  ],
+  "milestones": [
+    {
+      "title": "MVP Back",
+      "description": "Основний бекенд, база даних, API"
+    },
+    {
+      "title": "MVP Front",
+      "description": "Фронтенд-додаток на React Native"
+    },
+    {
+      "title": "AI Routing",
+      "description": "Інтеграція GPT-агента для маршрутизації"
+    },
+    {
+      "title": "Test & Polish",
+      "description": "Тестування і доопрацювання функціоналу"
+    },
+    {
+      "title": "Release",
+      "description": "Публікація у сторах, маркетинг"
+    }
+  ]
+}
